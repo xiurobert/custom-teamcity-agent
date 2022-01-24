@@ -1,6 +1,6 @@
 FROM jetbrains/teamcity-agent:2021.2.2-linux-sudo
 
-RUN sudo su
+USER root
 
 RUN apt-get update && apt-get upgrade -y
 
