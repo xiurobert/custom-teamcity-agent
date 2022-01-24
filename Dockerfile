@@ -5,7 +5,7 @@ USER root
 RUN apt-get update && apt-get upgrade -y
 
 RUN apt-get install -y openjdk-8-jdk-headless openjdk-17-jdk-headless
-RUN update-java-alternatives --set openjdk-17-jdk-headless
+# RUN update-java-alternatives --set openjdk-17-jdk-headless
 
 RUN apt-get install npm -y
 RUN npm install -g n
