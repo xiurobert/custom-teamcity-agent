@@ -1,4 +1,4 @@
-FROM jetbrains/teamcity-server:2021.2.2-linux-sudo
+FROM jetbrains/teamcity-agent:2021.2.2-linux-sudo
 
 RUN apt update && apt upgrade -y
 
